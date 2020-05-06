@@ -1,0 +1,46 @@
+/*
+    PAGE-SPECIFIC STYLING
+*/
+/* Introduction Page Styling */
+#introBody 
+{
+    /* Ref: https: //www.webpagefx.com/blog/web-design/responsive-background-image/ */
+    /* profile.jpg: http://www.homeselfe.com/wp-content/uploads/2016/06/gas-saving-tips.jpg */
+    background-image: url("..//images//profile.jpg");
+}
+/* Education Page Styling */
+#educBody
+{
+    background-image: url("../images/books.jpg");
+}
+
+/* Skills Page Styling */
+#skillsBody 
+{
+    /* skills.jpg: http://fscom.com/wp-content/uploads/2016/02/header3.jpg */
+    background-image: url("../images/skillset.jpg");
+}
+
+/* Projects Page Styling */
+#projBody 
+{
+    /* projects: https://www.bluegrass.net/wp-content/uploads/2016/11/pexels-photo-90807.jpeg */
+    background-image: url("../images/projects.jpg");
+}
+
+/* Contact Page Styling */
+#contactBody 
+{
+    /* connection.jpg: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAANQAAAAJGE2Nzg4ZjQxLTJiYTctNGNjZS05YzEyLTQyYzgwM2RiYjQ2MA.jpg */
+    background-image: url("../images/connection.jpg");
+}
+
+/* Resume Page Styling */
+.container-fluid 
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+}
