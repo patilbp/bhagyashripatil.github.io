@@ -1,0 +1,93 @@
+/*
+    BASIC PAGE STYLING
+*/
+body 
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+/* Navigation Bar Styling */
+.navbar 
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.nav-link, .navbar-brand, .fa-bars 
+{
+    color: #ffffff !important;
+}
+.nav-item-margin 
+{
+    margin-right: 12%;
+}
+.nav-link.active 
+{
+    font-weight: bold;
+    color: #0094ff !important;
+}
+.spaceDiv 
+{
+    width: 40%;
+}
+
+/* Jumbotron Styling */
+.jumbotron 
+{
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+}
+.display-3 
+{
+    padding-top: 8%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 2px 2px #000;
+}
+
+/* Card Styling */
+.card 
+{
+    margin: 2% 15% 5% 15%;
+    padding: 1.5% 1.5% 1% 1.5%;
+}
+
+/* Footer Styling */
+#footer 
+{
+    display: block;
+    width: 100%;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.res-con 
+{
+    text-align: center;
+}
+#footer-para 
+{
+    text-align: center;
+    font-size: 70%;
+    padding-top: 1.2%;
+    color: #fff;
+    padding-bottom: 0.5%;
+}
+.footer-button 
+{
+    color: #fff;
+    font-size: 1.15em;
+    font-style: italic;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
